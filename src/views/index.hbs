@@ -1,1 +1,19 @@
-<h1>Hola mundo</h1>
+<form action="/tasks/add" method="POST">
+  <div>
+    <label for="title">Escribe un titulo:</label>
+    <input type="text" name="title" placeholder="Titulo" id="title" />
+  </div>
+
+  <div>
+
+    <label for="description">Escribe una descripción:</label>
+    <textarea
+      name="description"
+      placeholder="Descripción"
+      id="description"
+    ></textarea>
+  </div>
+
+  <button>Agregar</button>
+
+</form>
